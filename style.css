@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.head-text {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+/* box */
+.box {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+
+/* signin box */
+.side1 {
+    background-color: rgb(255, 255, 255);
+    width: 470px;
+    height: 320px;
+    padding-left: 50px;
+    box-shadow: 3px 3px 17px gray;
+
+}
+
+
+.sign-text {
+   padding-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+
+input {
+    margin-bottom: 27px;
+}
+
+
+.signin-button {
+    background-color: red;
+    color: white;
+    width: 320px;
+    margin: auto;
+    border-radius: 45px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 0;
+    margin-top: 17px;
+}
+
+
+
+/* Login box */
+
+.side2 {
+    background-color: red;
+    text-align: center;
+    color: white;
+    width: 470px;
+    height: 320px;
+}
+
+
+.welcome-text {
+    padding-top: 80px;
+    word-spacing: 3px;
+    font-size: 40px;
+}
+
+
+.paragraph-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.signup-button {
+    background-color: unset;
+    border-radius: 40px;
+    border: 1px solid white;
+    width: 90px;
+    padding: 10px 14px;
+    color: white;
+}
+
+
+.signup-button:hover {
+    background-color: #2776eb;
+}
